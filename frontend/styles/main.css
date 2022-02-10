@@ -163,20 +163,75 @@ header .btn-get-started:hover {
   max-width: 100%;
 }
 
-.section-testimonial {
+.section-testimonial-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
 
-.section-testimonial h2 {
+.section-testimonial-heading h2 {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  font-size: 40px;
 }
 
-.section-testimonial p {
+.section-testimonial-heading p {
   font-size: 18px;
+}
+
+.section-testimonials-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonials-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonials-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonials-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonials-content .card-testimonial .testimonials {
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+  font-weight: 200;
+}
+
+.section-testimonials-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonials-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonials-content .btn-get-started {
+  background-color: #ff9e53;
+  color: #fff;
+}
+
+.section-testimonials-content .btn-get-started:hover {
+  color: #fff;
+}
+
+.section-testimonials-content .btn-need-help {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+
+.section-testimonials-content .btn-need-help:hover {
+  background-color: #fafafa;
+  color: #c3c3c3;
 }
 /*# sourceMappingURL=main.css.map */
